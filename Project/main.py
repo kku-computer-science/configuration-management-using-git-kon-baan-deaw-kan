@@ -23,22 +23,41 @@ def choose_algorithm(arr, algo):
 
 def interactive_mode():
     print("==== Sorting Program ====")
+    while True:
+        print("\nSelect an option:")
+        print("  1) Sort with Quick Sort")
+        print("  2) Sort with Bubble Sort")
+        print("  3) Exit")
 
-    raw = input("Enter numbers (space/comma separated): ")
-    arr = parse_numbers(raw)
+        choice = input("Choice (1/2/3): ").strip()
 
-    algo = input("Algorithm (quick/bubble): ")
+        if choice == "3":
+            print("Bye!")
+            break
+        elif choice not in {"1", "2"}:
+            print("Invalid choice. Please enter 1, 2, or 3.")
+            continue
 
-    try:
-        result = choose_algorithm(arr, algo)
-    except ValueError as e:
-        print(e)
-        return
+        raw = input("Enter numbers (space/comma separated): ")
+        try:
+            arr = parse_numbers(raw)
+        except ValueError as e:
+            print("Error:", e)
+            continue
 
-    print("\n------------------------")
-    print("Input :", arr)
-    print("Sorted:", result)
-    print("------------------------")
+        algo = "quick" if choice == "1" else "bubble"
+
+        try:
+            result = choose_algorithm(arr, algo)
+        except ValueError as e:
+            print("Error:", e)
+            continue
+
+        print("\n------------------------")
+        print("Algorithm:", "Quick Sort" if algo == "quick" else "Bubble Sort")
+        print("Input :", arr)
+        print("Sorted:", result)
+        print("------------------------")
 
 def cli_mode(args):
     # Example:
