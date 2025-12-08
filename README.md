@@ -62,16 +62,16 @@ algorithm ที่รองรับ:
 - quick, quicksort, q
 - bubble, bubblesort, b
 
-## การ Run Test 
+## การ Run Test  
 โปรเจกต์นี้มีไฟล์เทส เช่น `test_quick_sort.py` อยู่ในโฟลเดอร์โปรเจกต์
 สามารถรันเทสได้ดังนี้:
-1) ติดตั้ง pytest (ครั้งแรกเท่านั้น)
-   python -m pip install pytest
+1) ติดตั้ง pytest (ครั้งแรกเท่านั้น) <br>
+   python -m pip install pytest <br>
 
-2) ไปที่โฟลเดอร์โปรเจกต์
-   "E:\Study\T3\Software Engineer\configuration-management-using-git-kon-baan-deaw-kan\Project"
+2) ไปที่โฟลเดอร์โปรเจกต์ <br>
+   "E:\Study\T3\Software Engineer\configuration-management-using-git-kon-baan-deaw-kan\Project" <br>
 
-3) ใช้ pytest
+3) ใช้ pytest <br>
    python -m pytest -q
    
 ---
