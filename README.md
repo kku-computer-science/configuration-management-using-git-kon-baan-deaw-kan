@@ -7,7 +7,7 @@
 
 ---
 
-## สมาชิกทีม
+## สมาชิกทีม Kon Baan Deaw Kan (คนบ้านเดียวกัน) 
 - ธงชัย สีสาร (663380595-6) – พัฒนา Quick Sort + Test และ merge รวมทั้งหมดเข้าสู่ main
 - ธนัชชา คำไล้ (663380386-5) – พัฒนา Bubble Sort + Test
 - ธรานนท์ สุขตัว (663380387-3) – พัฒนา Main Program และ Input Handler
@@ -77,5 +77,6 @@ algorithm ที่รองรับ:
 ---
 
 
+![Red Bull Racing - GIPHY Clips](https://github.com/user-attachments/assets/855567c2-05dd-4ec5-a8d3-c9296476273e)
 
 
