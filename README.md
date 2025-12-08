@@ -8,9 +8,9 @@
 ---
 
 ## สมาชิกทีม
-- Thongchai สีสาร (663380595-6) – พัฒนา Test + Test และ merge รวมทั้งหมดเข้าสู่ main
-- Thanatcha คำไล้ (663380386-5) – พัฒนา Bubble Sort + Test
-- Tharanon สุขตัว (663380387-3) – พัฒนา Main Program และ Input Handler
+- ธงชัย สีสาร (663380595-6) – พัฒนา Test + Test และ merge รวมทั้งหมดเข้าสู่ main
+- ธนัชชา คำไล้ (663380386-5) – พัฒนา Bubble Sort + Test
+- ธรานนท์ สุขตัว (663380387-3) – พัฒนา Main Program และ Input Handler
 
 ---
 
