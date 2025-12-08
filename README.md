@@ -47,10 +47,10 @@ Sorted: [1, 2, 5, 9]  <br>
 ---
 
 ## 2) Run แบบ CLI arguments (Non-Interactive)
-สามารถส่งค่าผ่าน command line ได้ เช่น:
+สามารถส่งค่าผ่าน command line ได้ เช่น: <br>
 python main.py "5, 2, 9, 1" quick
-หรือ
-python main.py "10 3 7 1" bubble
+หรือ <br>
+python main.py "10 3 7 1" bubble <br>
 
 ### ผลลัพธ์
 [1, 3, 7, 10]
