@@ -30,13 +30,13 @@ Project/
 # วิธีใช้งานโปรแกรม
 ## 1) Run แบบปกติ (Interactive Mode)
 รัน:
-โปรแกรมจะให้เลือกโหมด: 
-==== Sorting Program ====
-1.Quick Sort
-2.Bubble Sort
-3.Exit
-
-จากนั้นกรอกตัวเลข เช่น:
+โปรแกรมจะให้เลือกโหมด: <br>
+==== Sorting Program ==== <br>
+1.Quick Sort <br>
+2.Bubble Sort <br>
+3.Exit <br>
+<br> 
+จากนั้นกรอกตัวเลข เช่น: <br>
 Enter numbers: 5 1 9 2
 
 ### ตัวอย่างผลลัพธ์
