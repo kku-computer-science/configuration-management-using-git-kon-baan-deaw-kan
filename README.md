@@ -15,6 +15,7 @@
 ---
 
 ## โครงสร้างโปรเจกต์
+```
 Project/
 │── quick_sort.py          # อัลกอริทึม Quick Sort
 │── bubble_sort.py         # อัลกอริทึม Bubble Sort
@@ -22,6 +23,7 @@ Project/
 │── main.py                # โปรแกรมหลัก แสดงผลและเลือกอัลกอริทึม
 │── test_quick_sort.py     # ทดสอบ Quick Sort
 └── test_bubble_sort.py    # ทดสอบ Bubble Sort
+```
 
 ---
 
