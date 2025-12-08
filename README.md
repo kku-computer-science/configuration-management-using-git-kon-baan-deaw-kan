@@ -16,12 +16,12 @@
 
 ## โครงสร้างโปรเจกต์
 Project/
-│── quick_sort.py # อัลกอริทึม Quick Sort
-│── bubble_sort.py # อัลกอริทึม Bubble Sort
-│── input_handler.py # จัดการรับข้อมูลจากผู้ใช้
-│── main.py # โปรแกรมหลัก แสดงผลและเลือกอัลกอริทึม
-│── test_quick_sort.py # ทดสอบ Quick Sort
-└── test_bubble_sort.py # ทดสอบ Bubble Sort
+│── quick_sort.py          # อัลกอริทึม Quick Sort
+│── bubble_sort.py         # อัลกอริทึม Bubble Sort
+│── input_handler.py       # จัดการรับข้อมูลจากผู้ใช้
+│── main.py                # โปรแกรมหลัก แสดงผลและเลือกอัลกอริทึม
+│── test_quick_sort.py     # ทดสอบ Quick Sort
+└── test_bubble_sort.py    # ทดสอบ Bubble Sort
 
 ---
 
