@@ -76,7 +76,8 @@ algorithm ที่รองรับ:
    
 ---
 
-
-![Red Bull Racing - GIPHY Clips](https://github.com/user-attachments/assets/855567c2-05dd-4ec5-a8d3-c9296476273e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ca558db3-bc5d-4123-95bf-73e5fba48770" width="350"/>
+</p>
 
 
