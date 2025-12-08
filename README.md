@@ -1,2 +1,69 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9R7rdwse)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21940958)
+โปรเจกต์นี้เป็นส่วนหนึ่งของวิชา CP353004 Software Engineering  
+กิจกรรม Lab 3.3: Working with Collaborators  
+ภาคการศึกษา 2/2568
+
+โครงการนี้มีวัตถุประสงค์ให้สมาชิกในทีมร่วมกันพัฒนาโปรแกรมสำหรับเรียงลำดับข้อมูล (Sorting)  
+โดยใช้โครงสร้างและขั้นตอนการทำงานผ่าน Git / GitHub / GitHub Classroom ตามหลักการของ Configuration Management
+
+---
+
+## สมาชิกทีม
+- ธงชัย สีสาร (663380595-6) – พัฒนา Test + Test และ merge รวมทั้งหมดเข้าสู่ main
+- ธนัชชา คำไล้ (663380386-5) – พัฒนา Bubble Sort + Test
+- ธรานนท์ สุขตัว (663380387-3) – พัฒนา Main Program และ Input Handler
+
+---
+
+## โครงสร้างโปรเจกต์
+```
+Project/
+│── quick_sort.py          # อัลกอริทึม Quick Sort
+│── bubble_sort.py         # อัลกอริทึม Bubble Sort
+│── input_handler.py       # จัดการรับข้อมูลจากผู้ใช้
+│── main.py                # โปรแกรมหลัก แสดงผลและเลือกอัลกอริทึม
+│── test_quick_sort.py     # ทดสอบ Quick Sort
+└── test_bubble_sort.py    # ทดสอบ Bubble Sort
+```
+
+---
+
+# วิธีใช้งานโปรแกรม
+## 1) Run แบบปกติ (Interactive Mode)
+รัน:
+โปรแกรมจะให้เลือกโหมด: 
+==== Sorting Program ====
+1.Quick Sort
+2.Bubble Sort
+3.Exit
+
+จากนั้นกรอกตัวเลข เช่น:
+Enter numbers: 5 1 9 2
+
+### ตัวอย่างผลลัพธ์
+Algorithm: Quick Sort
+Input : [5, 1, 9, 2]
+Sorted: [1, 2, 5, 9]
+
+---
+
+## 2) Run แบบ CLI arguments (Non-Interactive)
+สามารถส่งค่าผ่าน command line ได้ เช่น:
+python main.py "5, 2, 9, 1" quick
+หรือ
+python main.py "10 3 7 1" bubble
+
+### ผลลัพธ์
+[1, 3, 7, 10]
+
+### รูปแบบ argument
+python main.py "<ตัวเลขคั่นด้วย space หรือ comma>" <algorithm>
+
+algorithm ที่รองรับ:
+- quick, quicksort, q
+- bubble, bubblesort, b
+
+---
+
+
+
+

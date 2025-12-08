@@ -23,6 +23,7 @@ def choose_algorithm(arr, algo):
 
 def interactive_mode():
     print("==== Sorting Program ====")
+<<<<<<< HEAD
     while True:
         print("\nSelect an option:")
         print("  1) Sort with Quick Sort")
@@ -58,6 +59,24 @@ def interactive_mode():
         print("Input :", arr)
         print("Sorted:", result)
         print("------------------------")
+=======
+
+    raw = input("Enter numbers (space/comma separated): ")
+    arr = parse_numbers(raw)
+
+    algo = input("Algorithm (quick/bubble): ")
+
+    try:
+        result = choose_algorithm(arr, algo)
+    except ValueError as e:
+        print(e)
+        return
+
+    print("\n------------------------")
+    print("Input :", arr)
+    print("Sorted:", result)
+    print("------------------------")
+>>>>>>> 033d935b578e8261f4de8ea8a72b3baca3e797b4
 
 def cli_mode(args):
     # Example:
@@ -74,4 +93,8 @@ if _name_ == "_main_":
     if len(sys.argv) > 1:
         cli_mode(sys.argv[1:])
     else:
+<<<<<<< HEAD
         interactive_mode()
+=======
+        interactive_mode()
+>>>>>>> 033d935b578e8261f4de8ea8a72b3baca3e797b4
