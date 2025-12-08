@@ -40,9 +40,9 @@ Project/
 Enter numbers: 5 1 9 2
 
 ### ตัวอย่างผลลัพธ์
-Algorithm: Quick Sort
-Input : [5, 1, 9, 2]
-Sorted: [1, 2, 5, 9]
+Algorithm: Quick Sort  <br> 
+Input : [5, 1, 9, 2]  <br>
+Sorted: [1, 2, 5, 9]  <br>
 
 ---
 
